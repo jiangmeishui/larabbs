@@ -1,11 +1,13 @@
 <?php
 namespace App\Handlers;
 
+use Image;
+
 class ImageUploadHandler{
     // 只允许以下后缀名的图片文件上传
     protected $allowed_ext = ["png", "jpg", "gif", 'jpeg'];
 
-    public function save($file, $folder, $file_prefix)
+    public function save($file, $folder, $file_prefix, $maxWidth = false)
     {
         // 构建存储的文件夹规则，值如：uploads/images/avatars/201709/21/
         // 文件夹切割能让查找效率更高。
@@ -30,8 +32,24 @@ class ImageUploadHandler{
         // 将图片移动到我们的目标存储路径中
         $file->move($upload_path, $filename);
 
+        // 如果传了宽度,我们就对图片进行裁剪
+        $maxWidth && $this->reduceSize($upload_path . '/'. $filename, $maxWidth);
         return [
             'path' => config('app.url') . "/$folder_name/$filename"
         ];
+    }
+
+    public function reduceSize($filePath, $maxWidth) {
+        // 先实例化,此处用的是图片物理路径
+        $image = Image::make($filePath);
+        // 进行缩放
+        $image->resize($maxWidth, null, function ($constraint) {
+            // 设定了宽度 $maxWidth, 高度null 根据宽度等比缩放 反之亦然
+            $constraint->aspectRatio();
+            // 防止图片尺寸变大
+            $constraint->upsize();
+        });
+        // 保存图片
+        $image->save();
     }
 }
