@@ -40,4 +40,10 @@ return [
         ],
     ],
 
+    'baidu_translate' => [
+        'appid' => env('20190129000259924'),
+        'key'   => env('7eFi8GBBi5uSDKA1UBnX'),
+    ],
+
+
 ];
