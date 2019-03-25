@@ -54,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TopicsController.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TopicsController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TopicsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state relative-caret-position="190">
+              <caret line="32" column="74" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="74" />
               <folding>
                 <element signature="e#40#64#0#PHP" expanded="true" />
               </folding>
@@ -66,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="webpack.mix.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webpack.mix.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+            <state relative-caret-position="420">
+              <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
             </state>
           </provider>
         </entry>
@@ -78,8 +87,8 @@
       <file leaf-file-name="create_and_edit.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="280">
+              <caret line="65" column="65" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -106,18 +115,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AppServiceProvider.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Providers/AppServiceProvider.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
-              <folding>
-                <element signature="e#33#63#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -132,7 +129,6 @@
       <find>if ($options['verify'] ?? false)</find>
       <find>introduction</find>
       <find>APP_URL</find>
-      <find>auth</find>
       <find>interface</find>
       <find>/users/login</find>
       <find>站内</find>
@@ -150,6 +146,8 @@
       <find>err</find>
       <find>errors</find>
       <find>sidebar</find>
+      <find>auth</find>
+      <find>categories</find>
     </findStrings>
     <replaceStrings>
       <replace>App\Models\User</replace>
@@ -187,7 +185,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/categroiesController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/CategroiesController.php" />
         <option value="$PROJECT_DIR$/resources/views/topics/_topic_list.blade.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/sass/app.scss" />
         <option value="$PROJECT_DIR$/app/Models/Topic.php" />
         <option value="$PROJECT_DIR$/resources/views/topics/index.blade.php" />
@@ -207,11 +204,12 @@
         <option value="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/topics/_sidebar.blade.php" />
         <option value="$PROJECT_DIR$/app/models/Topic.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" />
-        <option value="$PROJECT_DIR$/webpack.mix.js" />
         <option value="$PROJECT_DIR$/composer.json" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/webpack.mix.js" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/TopicsController.php" />
       </list>
     </option>
   </component>
@@ -347,6 +345,11 @@
               <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
               <item name="larabbs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="larabbs" type="b2602c69:ProjectViewProjectNode" />
+              <item name="larabbs" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -354,7 +357,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="app.blade.&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/resources/views/layouts/app.blade.php&#10;comp&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/composer.json&#10;web&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/routes/web.php&#10;apps&#9;null&#9;null&#10;kernel&#9;null&#9;null&#10;compo&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/composer.json&#10;EncryptionServiceProvider&#9;null&#9;null&#10;app.php&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/config/app.php&#10;login&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/resources/views/auth/login.blade.php&#10;login.blade.php&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="web&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/routes/web.php&#10;app.blade.&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/resources/views/layouts/app.blade.php&#10;comp&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/composer.json&#10;apps&#9;null&#9;null&#10;kernel&#9;null&#9;null&#10;compo&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/composer.json&#10;EncryptionServiceProvider&#9;null&#9;null&#10;app.php&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/config/app.php&#10;login&#9;FILE&#9;file://C:/Users/23713/Code/larabbs/resources/views/auth/login.blade.php&#10;login.blade.php&#9;null&#9;null" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -410,12 +413,12 @@
       <workItem from="1548211113118" duration="2841000" />
       <workItem from="1553349182355" duration="12690000" />
       <workItem from="1553441488208" duration="331000" />
-      <workItem from="1553493692308" duration="4278000" />
+      <workItem from="1553493692308" duration="5155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="124804000" />
+    <option name="totallyTimeSpent" value="125681000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -665,13 +668,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Foundation/Auth/Access/AuthorizesRequests.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
@@ -783,27 +779,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TopicsController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
-          <folding>
-            <element signature="e#40#64#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
           <caret line="36" column="17" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -816,8 +795,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.mix.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        <state relative-caret-position="420">
+          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/web.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="41" column="89" selection-start-line="41" selection-start-column="89" selection-end-line="41" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/topics/create_and_edit.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="65" column="65" selection-start-line="65" selection-start-column="55" selection-end-line="65" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/TopicsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="32" column="74" selection-start-line="32" selection-start-column="64" selection-end-line="32" selection-end-column="74" />
+          <folding>
+            <element signature="e#40#64#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
