@@ -15,6 +15,11 @@ class Topic extends Model
     public function user() {
         return $this->belongsTo(User::class);
     }
+    // 一个话题下有多条回复
+    public function replies()
+    {
+        return $this->hasMany(Reply::class);
+    }
 
     // 使用本地作用域,作集合条件约束,返回一个查询构造器,需要在方法前加score前缀,调用时
     // 不用加
