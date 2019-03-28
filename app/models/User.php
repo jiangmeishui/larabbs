@@ -67,6 +67,7 @@ class User extends Authenticatable implements MustVerifyEmailContract
     {
         $this->notification_count = 0;
         $this->save();
+        // 消息表中的read将会写入时间,代表已读
         $this->unreadNotifications->markAsRead();
     }
 }
