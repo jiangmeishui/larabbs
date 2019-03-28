@@ -20,4 +20,6 @@ class Reply extends Model
     {
         return $query->orderBy('id', 'desc');
     }
+
+
 }
